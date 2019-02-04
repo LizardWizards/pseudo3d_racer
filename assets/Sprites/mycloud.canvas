@@ -1,0 +1,61 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "mycloud",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "358a8c77-a271-484b-b027-8e6c5e73f7d9",
+    "info": {
+      "editorName": "mycloud",
+      "setAll": [],
+      "children": [{
+        "type": "image",
+        "id": "9e8478e2-caeb-46a2-bedc-46bf9a503315",
+        "asset": "0",
+        "info": {
+          "editorName": "cloud",
+          "x": 170,
+          "y": -93,
+          "scale.x": 0.15821723061784793,
+          "scale.y": 0.12908803687202577
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "Level",
+    "asset": "cloud"
+  }},
+  "prefab-table": {}
+}

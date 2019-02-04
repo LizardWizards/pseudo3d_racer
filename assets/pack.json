@@ -1,0 +1,65 @@
+{
+  "Level": [
+    {
+      "type": "image",
+      "key": "car",
+      "url": "assets/Sprites/car.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "RaceCar",
+      "url": "assets/Sprites/RaceCar.js"
+    },
+    {
+      "type": "image",
+      "key": "trees-png-photo-2",
+      "url": "assets/Sprites/trees-png-photo-2.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "MyTree",
+      "url": "assets/Sprites/MyTree.js"
+    },
+    {
+      "type": "image",
+      "key": "cloud",
+      "url": "assets/Sprites/cloud.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "mycloud",
+      "url": "assets/Sprites/mycloud.js"
+    },
+    {
+      "type": "image",
+      "key": "mountains",
+      "url": "assets/Sprites/mountains.png",
+      "overwrite": false
+    },
+    {
+      "type": "script",
+      "key": "mtn_prefab",
+      "url": "assets/canvas/mtn_prefab.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "cat",
+      "url": "assets/Sprites/cat.png",
+      "frameWidth": 75,
+      "frameHeight": 75,
+      "frameMax": 3,
+      "margin": 0,
+      "spacing": 0
+    }
+  ],
+  "meta": {
+    "generated": "1548698380211",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

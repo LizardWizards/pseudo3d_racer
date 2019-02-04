@@ -1,0 +1,54 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "RaceCar",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "06e08e96-7b34-4dd6-a7ad-6f814f3f9c3d",
+    "info": {
+      "editorName": "RaceCar",
+      "setAll": [],
+      "children": [{
+        "type": "image",
+        "id": "1e4dfa2e-e67c-4183-8efb-b4be4119ae1b",
+        "asset": "0",
+        "info": {"editorName": "car"}
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "Level",
+    "asset": "car"
+  }},
+  "prefab-table": {}
+}

@@ -1,0 +1,54 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "mtn_prefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "25137e3b-eea7-479d-950b-00025212289b",
+    "info": {
+      "editorName": "mtn_prefab",
+      "setAll": [],
+      "children": [{
+        "type": "image",
+        "id": "01a58550-e612-463c-995d-64f9c453fbbd",
+        "asset": "0",
+        "info": {"editorName": "mountains"}
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "Level",
+    "asset": "mountains"
+  }},
+  "prefab-table": {}
+}

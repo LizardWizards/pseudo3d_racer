@@ -1,0 +1,59 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "MyTree",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Sprite",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "b489ca45-9380-4fa9-ab17-89a70f61750e",
+    "info": {
+      "editorName": "MyTree",
+      "setAll": [],
+      "children": [{
+        "type": "image",
+        "id": "d0328f52-fc33-4ee1-af2e-d0d8cca509e6",
+        "asset": "0",
+        "info": {
+          "editorName": "trees_png_photo_2",
+          "scale.x": 0.17749999352176957,
+          "scale.y": 0.16168717409787275
+        }
+      }]
+    }
+  },
+  "type": "SPRITE",
+  "asset-table": {"0": {
+    "file": "WebContent/assets/pack.json",
+    "section": "Level",
+    "asset": "trees-png-photo-2"
+  }},
+  "prefab-table": {}
+}
